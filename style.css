@@ -28,5 +28,30 @@ body *{
 #foto p{
     font-weight: 500;
     line-height: 24px;
-    margin-top: 8px;
+    margin-top: 10px;
 }
+/*lista*/
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /*adiciona espaço entre objetos e não acima ou abaixo deles*/
+}
+ul li a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    text-decoration: none;
+    border-radius: 8px;/*arredondamento de border*/
+    font-weight: 500;
+    transition: background 0.2s;
+}
+ul li a:hover{
+    border: 1.5px solid #fff;
+    background: rgba(255,255,255,0.05) ;
+}
+

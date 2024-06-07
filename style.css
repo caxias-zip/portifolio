@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*remo os padrões da página*/
+}
+body{
+    background-image: url(assets/bg-mobile.jpg);/*adicionar uma imagem como background*/
+    background-repeat: no-repeat ;/*pra não repetir a imagem no back ground*/
+    background-position: top center; /*posicionamento do background*/
+    background-size: cover; /*fara do background ser mais responsivo*/ 
+}
+body *{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+#container{
+    width: 360px;
+    margin: 56px auto;
+}
+#foto{
+    text-align: center;
+    padding: 24px;
+}
+#foto img{
+    width: 112px;
+}
+#foto p{
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
